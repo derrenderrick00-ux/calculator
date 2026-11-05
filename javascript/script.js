@@ -97,8 +97,8 @@ clear.addEventListener('click', ()=>{
 
 function calculate(){
     try{
-        const soln= eval(result.value)
-        result.value= soln.toFixed(3);
+        const soln= eval(result.value);
+        result.value= soln;
     }
     catch(err){
         result.value="Invalid Syntax";
